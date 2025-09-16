@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post"></form>
+        <fieldset>
+            <legend>Registration Form</legend>
+        <label for="username">Username:</label>
+       <input type="text"id="username"name="Username" placeholder="capital letters only" autofocus><br><br>
+         
+       <label for="pd">Password:</label>
+       <input type="password"id="pd"name="Password" minlength="8"><br><br>
+
+       <label for="email">Emailid:</label>
+<input type="email" id="email"name="Emailid" required><br><br>
+
+<label for="address">Address</label>
+<textarea name="Address" id="address"></textarea><br><br>
+
+<label for="lang">Language</label>
+<input type="checkbox" id="lang" name="Language" value="Tamil">Tamil
+<input type="checkbox"id="lang" name="Language" value="English">English
+<input type="checkbox"id="lang" name="Language" value="Hindi">Hindi
+<input type="checkbox"id="lang" name="Language" value="Kannada">Kannada
+<input type="checkbox"id="lang" name="Language" value="French">French
+<br><br>
+<label for="dob">DOB</label>
+<input type="date" id="dob" name="DOB"><br><br>
+<label for="age">Age</label>
+<input type="number" id="age" name="Age" min="18" max="50"><br><br>
+<label for="phnno">Contact_no :</label>
+<input type="tel" id="phnno" name="Contact_no"><br><br>
+
+<label for="gen">Gender</label>
+<input type="radio" id="gen" name="gender"value="Male">Male
+<input type="radio" id="gen" name="gender"value="Female">Female
+<input type="radio" id="gen" name="gender"value="Others" disabled>Others
+<br><br>
+
+ <label for="state">State</label>
+ <select name="State" id="state">
+    <option value="Tamilnadu">Tamilnadu</option>
+    <option value="Telungana">Telungana</option>
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+ </select>
+ <br><br>
+   
+ <label for="city">City</label>
+ <input type="text" id="city" list="c">
+ <datalist id="c">
+    <option value="chennai">chennai</option>
+    <option value="banglore">banglore</option>
+    <option value="mysore">mysore</option>
+    <option value="thiruvallur">thiruvallur</option>
+ </datalist>
+<br><br>
+  
+<label for="s">States</label>
+<select name="city" id="s">
+    <optgroup label="Tamilanadu">
+        <option value="chennai">chennai</option>
+        <option value="thiruvallur">thiruvallur</option>
+        <option value="kanchi">kanchi</option>
+    </optgroup>
+    
+    <optgroup label="Telungana">
+        <option value="banglore">banglore</option>
+        <option value="mysore">mysore</option>
+        <option value="mangalore">mangalore</option>
+    </optgroup>
+    
+
+</select>
+<br><br>
+<label for="upload">upload file</label>
+<input type="file" id="upload" name="upload file" multiple>
+<br><br>
+
+<label for="company">Company:</label>
+<input type="text" id="company"name="Company"value="TCS"readonly>
+<br><br>
+ <label for="tcs"> </label>
+ <input type="image" src="https://techstory.in/wp-content/uploads/2020/10/TCS.jpg" id="tcs" height="200px" width="200px">
+ <br><br>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    
+</head>
+<body>
+    
+<form style="background-color: greenyellow;">
+    <center>
+    <fieldset>
+    <h4 style="color: red;">Personal Details </h4>
+        <label for="name">Name:</label>
+            <input type="text" id="name" name="Name">
+            <br><br>
+        <label for="pd">Password:</label>
+        <input type="password" id="pd" name="Password">
+        <br><br>
+        <label for="email">Email id:</label>
+        <input type="email"id="email"name="Emailid">
+        <br><br>
+        <label for="gen">Gender:</label>
+<input type="radio" id="gen"name="Gender"value="Male">Male
+<input type="radio" id="gen"name="Gender"value="Female">Female
+<br><br>
+<label for="con">Contact:</label>
+<input type="tel"id="con"name="Contact">
+<br><br>
+
+<h4 style="color: red;">Educational Qualification</h4>
+    <label for="deg">Degree:</label>
+    <select name="Degree" id="deg">
+        <option value="BE">BE</option>
+        <option value="Btech">Btech</option>
+        <option value="BCA">BCA</option>
+        <option value="Msc">Msc</option>
+    </select>
+    <br><br>
+    <label for="eng">Engineering:</label>
+    <select name="Engineering" id="eng">
+        <option value="CS">CS</option>
+        <option value="IT">IT</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+    </select>
+    <br><br>
+    <label for="hobby">Hobbies</label>
+    <input type="checkbox" id="hobby" name="Hobbies" value="Playing chess">Playing chess
+    <input type="checkbox"id="hobby" name="Hobbies" value="Reading Books">Reading Books
+    <br><br>
+
+    <h4 style="color: red;">Address</h4>
+    <textarea name="Address" id="address"></textarea>
+    <br><br>
+
+    <label for="file">Attach Resume:</label>
+<input type="file" name="File" id="file">
+<br><br>
+<button type="submit" style="background-color: orange; color: white; border-color: orange;  width: 10%;height: 1cm;">Submit</button>
+</center>
+
+
+
+
+</fiedset>
+</form>
+</body>
+</html>

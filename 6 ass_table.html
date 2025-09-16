@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead style="background-color: aqua;">
+<th>Device</th>
+<th>Brand</th>
+<th>Specifications</th>
+        </thead>
+        <tbody>
+<tr>
+    <td>Smartphone</td>
+    <td>Apple</td>
+    <td>
+        <table border="1" >
+        <thead style="background-color: yellow;">
+        <th>Model</th>
+        <th>Storage</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>iphone16</td>
+                <td>256GB</td>
+            </tr>
+            <tr>
+                <td>iphone SE</td>
+                <td>128GB</td>
+            </tr>
+        </tbody>
+    </table>
+    </td>
+</tr>
+<tr>
+    <td>Laptop</td>
+    <td>dell</td>
+    <td>15.6 display</td>
+</tr>
+<tr>
+    <td>tablet</td>
+    <td>Samsung</td>
+    <td>5.6 display</td>
+</tr>
+        </tbody>
+    </table>
+    <br><br>
+    <h1>Using rowspan and colspan</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Device</th>
+                <th>Brand</th>
+                <th colspan="2">Specification</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td rowspan="3">Smartphone</td>
+            <td rowspan="3">Apple</td>
+            <th>model</th>
+            <th>storage</th>
+            </tr>
+            <tr>
+                <td>iphone4</td>
+                <td>345gb</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+</head>
+<body>
+
+<h1>Unordered list=>without sequence (we cannot use reversed attribute)</h1>
+<h2>type:square,none,disc,circle</h2>
+    <ul type="square">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ul>
+    <ul type="none">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ul>
+    <ul type="disc">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ul>
+
+    <ul type="circle">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ul>
+    <hr>
+    <h1>Ordered list=>with sequence(we can use reversed and start attribute)</h1>
+    <h2>type:1,a,A,I,i</h2>
+    <ol type="1">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ol>
+    <ol type="a">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ol>
+    <ol type="A">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ol>
+    <ol type="I">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ol>
+    <ol type="i">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ol>
+    <ol type="1"reversed>//only sequence reverse
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ol>
+    <ol type="a"start="27">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ol>
+    <ol type="I"start="3">
+        <li>kayal</li>
+        <li>kavitha</li>
+        <li>kanaga</li>
+        <li>kala</li>
+    </ol>
+    <hr>
+    <h1>description list=>terms and definition</h1>
+    <dl>
+        <dt>html</dt>
+        <dd>hypertext markup language</dd>
+        <dt>www</dt>
+        <dd>world wide web</dd>
+    </dl>
+    <hr>
+    <h1>Nested list</h1>
+    
+    <ol style="color: black;">
+        <li>java</li>
+        <li>web technology</li>
+        <ul style="color: blue;">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ul>
+        <li>sql</li>
+    </ol>
+    <ul>
+        <li>Fruits</li>
+        <ul type="circle">
+        <li>mango</li>
+        <li>orange</li>
+    </ul>
+        <li>Vegetables</li>
+        <ul type="circle">
+            <li>cabbage</li>
+        <li>capsicum</li>
+        <ul type="square">
+            <li>green</li>
+            <li>yelloow</li>
+            <li>red</li>
+        </ul>
+    </ul>
+    </ul>
+    <h1>Assignment on nested list</h1>
+    <ol style="color: skyblue;">
+        <li>Input devices</li>
+        <ol type="a" style="color:red;">
+            <li>pointing devices</li>
+            <ul type="disc" style="color: purple;">
+                <li>mouse</li>
+                <ul type="circle" style="color: green;">
+                    <li>optical mouse</li>
+                    <li>mechanical mouse</li>
+                    <li>wireless mouse</li>
+                    <ul type="square" style="color: yellow;">
+                        <li>rf mouse</li>
+                        <li>bluetooth mouse</li>
+                    </ul>
+
+                </ul>
+                <li>trackball</li>
+                <li>touchpad</li>
+                <li>pointing stick</li>
+            </ul>
+            <li>touchscreen</li>
+            <li>video input and audio input devices</li>
+            <ul type="disc"style="color: purple;">
+                <li>digital video camera</li>
+                <li>web cams</li>
+            </ul>
+        </ol>
+        <li>output devices</li>
+        <ol type="a" style="color: red;">
+            <li>printers</li>
+            <ul type="disc"style="color: purple;">
+                <li>Impact printers</li>
+                <li>non impact printers</li>
+            </ul>
+        </ol>
+    </ol>
+    <hr>
+    <h1>Assignment 2 on nested list</h1>
+    <ol type="I">
+        <li>Background skills</li>
+        <ol type="A">
+<li>Unix commands</li>
+<li>Vim text editor</li>
+        </ol>
+        <li>HTML</li>
+        <ol type="A">
+            <li>Minimal page</li>
+            <li>Headings</li>
+            <li>Tags</li>
+            <li>Lists</li>
+            <ol type="i">
+                <li>Unordered</li>
+                <li>Ordered</li>
+                <li>Definition</li>
+                <li>Nested</li>
+            </ol>
+            <li>Links</li>
+            <ol type="i">
+            <li>Absolute</li>
+            <li>Relative</li>
+          </ol>
+            <li>Images</li>
+        </ol>
+        <li>CSS</li>
+        <ol type="A">
+<li>Anatomy</li>
+<li>Basic selectors</li>
+<ol type="i">
+    <li>Element</li>
+    <li>Class</li>
+    <li> ID</li>
+    <li>Group</li>
+</ol>
+<li>The DOM</li>
+<li>Advanced selectors</li>
+<li>Box Model</li>
+        </ol>
+        <li>Programming</li>
+        <ol type="A">
+            <li>Python</li>
+            <li>Javascript</li>
+        </ol>
+        <li>Database</li>
+        <ol type="A">
+            <li>Flat file</li>
+        <li>Relational</li>
+    </ol>
+
+    </ol>
+
+
+    
+    
+    
+    
+    
+</body>
+</html>
