@@ -1,29 +1,29 @@
 HTML Practice Journey 🚀
 
-This repository contains my step-by-step HTML practice files, where I explored and experimented with the fundamental HTML tags and elements.
+This repository contains my HTML practice files, where I explored and experimented with the fundamental HTML tags and elements.
 
-It includes 11 practice files covering everything from basic text formatting to tables and hyperlinks. Each file focuses on one or more concepts, making it easy to follow and learn.
+It includes practice exercises such as lists, tables, images, links, forms, media, and more. Each file focuses on one or more concepts, making it easy to follow and learn.
 
 📂 Contents
 
-01-lists.html → Ordered & unordered lists
+1 format.html → Text formatting tags (bold, italic, underline, etc.)
 
-02-tables.html → Creating and styling tables
+2 list.html → Ordered & unordered lists
 
-03-marquee.html → Scrolling text with marquee tag
+3 img.html → Adding and resizing images
 
-04-anchor.html → Hyperlinks and navigation
+4 link.html → Hyperlinks and navigation
 
-05-formatting.html → Text formatting tags (bold, italic, underline, etc.)
+5 table.html → Creating and styling tables
 
-06-headings.html → Different heading levels
+6 ass_table.html → Table assignment (structured data presentation)
 
-07-paragraphs.html → Paragraph and line breaks
+7 form.html → Simple form elements (input, button, select, etc.)
 
-08-images.html → Adding and resizing images
+8 media.html → Embedding audio and video
 
-09-audio-video.html → Embedding audio and video
+9 ass form.html → Form assignment (structured input form)
 
-10-forms.html → Simple form elements (input, button, select, etc.)
+10 marque.html → Scrolling text with marquee tag
 
-11-combination.html → Combining multiple tags into a small web page
+timetable.html → Timetable layout using HTML tables
